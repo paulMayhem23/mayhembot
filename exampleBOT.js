@@ -1,4 +1,4 @@
-var cmbot = require('cmbot');
+var cmbot = require('mayhembot');
 var mybot = new cmbot({
     // This will put the settings & dj files in the same directory where this script is
     settings_file: __dirname + '/settings.json', 

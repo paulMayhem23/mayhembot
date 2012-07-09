@@ -43,7 +43,7 @@ at the moment npm installation is borked, i will fix this as soon as possible. i
 * 'npm install mysql'
 * 'npm install sqlite3'
 ```
-then download the zip and extract it to a folder inside your node modules folder
+then download the zip and extract it to a folder inside your node modules folder - this folder must be named 'mayhembot'
 
 Obviously the bot should be a mod of the room it will be in, to be useful.
 
