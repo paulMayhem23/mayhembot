@@ -15,7 +15,7 @@ An advanced turntable fm bot, based heavily on atom jack's CMBOT - https://githu
 * Shitlist a user, causing the bot to automatically kick them from the room when they join. Keep those trolls away!
 * Warn a user that their song is either not loading or is off genre for the room, and that they have 15 seconds to skip the song or else the bot will escort them down from the decks.
 * Autodj - if there are 2 open spots on the decks, the bot will wait 1 minute before automatically stepping up to DJ. Once the decks fill up and someone adds themselves to the queue, however, the bot will automatically step down (unless the bot is the one whose song is playing when that happens - in which case it will step down after it's song is over). Also, this can be disabled, so the bot never autodj's.
-* Configurable rules module 
+* Configurable modules for custom commands such as a /rules list and website information, also included a couple of silly example speak event listeners
 
 ### Triggers
 
