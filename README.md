@@ -27,6 +27,7 @@ you will need node.js get the latest version from - http://nodejs.org/ and insta
 
 at the moment npm installation is borked, i will fix this as soon as possible. in the meantime you will have to install all the dependencies one by one.
 
+```
 * 'npm install ttapi'
 * 'npm install sprintf'
 * 'npm install http-get'
@@ -41,7 +42,7 @@ at the moment npm installation is borked, i will fix this as soon as possible. i
 * 'npm install jsdom'
 * 'npm install mysql'
 * 'npm install sqlite3'
-
+```
 then download the zip and extract it to a folder inside your node modules folder
 
 Obviously the bot should be a mod of the room it will be in, to be useful.
