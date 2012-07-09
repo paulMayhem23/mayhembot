@@ -159,7 +159,7 @@ Use google's URL Shortening service to get a short version of any url.
 
 Using songkick.com, list the next 7 shows for the currently playing artist (using `/shows`), or for a specific artist (using `/shows artist`).
 
-### tags ( [artist:string] )
+### lastfmtags ( [artist:string] )
 
 Get last.fm tags for the currently playing song (`/tags`) or a particular artist (`/tags artist`).
  
