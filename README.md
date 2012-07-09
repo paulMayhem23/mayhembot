@@ -27,20 +27,20 @@ you will need node.js get the latest version from - http://nodejs.org/ and insta
 
 at the moment npm installation is borked, i will fix this as soon as possible. in the meantime you will have to install all the dependencies one by one.
 
-'npm install ttapi'
-'npm install sprintf'
-'npm install http-get'
-'npm install crypto@0.0.3'
-'npm install xm12js@0.1.13'
-'npm install querystring@0.1.0'
-'npm install ntwitter'
-'npm install jquery'
-'npm insatll simple-lastfm@1.0.3'
-'npm install dateformat'
-'npm install path'
-'npm install jsdom'
-'npm install mysql'
-'npm install sqlite3'
+* 'npm install ttapi'
+* 'npm install sprintf'
+* 'npm install http-get'
+* 'npm install crypto@0.0.3'
+* 'npm install xm12js@0.1.13'
+* 'npm install querystring@0.1.0'
+* 'npm install ntwitter'
+* 'npm install jquery'
+* 'npm insatll simple-lastfm@1.0.3'
+* 'npm install dateformat'
+* 'npm install path'
+* 'npm install jsdom'
+* 'npm install mysql'
+* 'npm install sqlite3'
 
 then download the zip and extract it to a folder inside your node modules folder
 
