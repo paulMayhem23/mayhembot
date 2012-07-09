@@ -5,9 +5,9 @@ var mybot = new cmbot({
     dj_file: __dirname + '/djs.json',
 
     bot: {
-        auth: 'auth+live+50781c167c265b4031b09721ae3e21459bf3e66b',
-        userid: '4ff4d2beaaa5cd197c00007e',
-        roomid: '4ff7142baaa5cd43ea000011'
+        auth: 'auth+live+...',
+        userid: '...',
+        roomid: '...'
     },
     modules_directory: __dirname + '/modules',
     autoload_modules: true, // If set to true, scans the modules_directory for any .js files and loads any custom commands/events they contain
@@ -18,18 +18,18 @@ var mybot = new cmbot({
     // If either of the following are set to false, only awesome for the other. If both are set to false, never autobop. If both are set, autobop for whichever is lowest.
     autobop_threshold_number: 5, // How many other users must awesome before the bot awesomes
     autobop_threshold_percentage: 10, // The percentage of the room's population that must awesome before the bot awesomes
-    master_userid: ['4fe8e9caaaa5cd5407000272'], // Who runs the bot should have extra privileges. Put your userid here. Can be a single userid (a string) or an array of them.
+    master_userid: ['...'], // Who runs the bot should have extra privileges. Put your userid here. Can be a single userid (a string) or an array of them.
     ffa: [5], // Array of days of the week for free for all. Sunday = 0, Monday = 1, etc. Set to false for none.
     ffa_text: 'It\'s Free For All Friday! No Queue today.', // The bot will display this when someone tries to manipulate or show the queue on an FFA day. 
     timezone: 'GMT', // The default timezone for modpm
     modpm_superusers: true, // Set to false to exclude superusers from modpm
     allow_mobile_djs: true, // Set to false to require users to be whitelisted in order to DJ from a mobile device (mods are exempt)
     lastfm: {
-        enabled: true,
-        username: 'clubmayhem23',
-        password: 'pixelpunx1978',
-        api_key: '7a47d32916139c02ca65b91d617c3f9f',
-        api_secret: 'bc4f0cf9418702b99348abf29ddca635',
+        enabled: false,
+        username: '...',
+        password: '...',
+        api_key: '...',
+        api_secret: '...',
         session_key: false,
         earliest_scrobble: '' // If you want /plays to add that the number of plays shown is from the date of your first scrobble, put it here, and it will append it ("since _____")
     },
@@ -59,7 +59,7 @@ var mybot = new cmbot({
      * users of the rules, how the queue works, etc.
      */
     messages: [
-        'Welcome to club mayhem! in here @MayhemBOT reigns supreme, type /rules to see the rules. our last.fm is here http://www.last.fm/user/clubmayhem23',
+        'Welcome to club mayhem! in here @MayhemBOT reigns supreme, type /rules to see the rules.',
 		'Welcome to Club Mayhem, type /commands to see a list of things I can do - type /rules to see the rules of the room'
 	],
 

@@ -23,15 +23,36 @@ Triggers are special commands any mod can set that will make the bot say a certa
 
 ## Installation and Setup
 
-you will need node.js get the latest version from - http://nodejs.org/ and install it. then cd to your node.js directory and type 'npm install mayhembot'
+you will need node.js get the latest version from - http://nodejs.org/ and install it. then cd to your node.js directory 
+
+at the moment npm installation is borked, i will fix this as soon as possible. in the meantime you will have to install all the dependencies one by one.
+
+'npm install ttapi'
+'npm install sprintf'
+'npm install http-get'
+'npm install crypto@0.0.3'
+'npm install xm12js@0.1.13'
+'npm install querystring@0.1.0'
+'npm install ntwitter'
+'npm install jquery'
+'npm insatll simple-lastfm@1.0.3'
+'npm install dateformat'
+'npm install path'
+'npm install jsdom'
+'npm install mysql'
+'npm install sqlite3'
+
+then download the zip and extract it to a folder inside your node modules folder
 
 Obviously the bot should be a mod of the room it will be in, to be useful.
 
 To get the bot's auth, userid, and roomid, see [this link](http://alaingilbert.github.com/Turntable-API/bookmarklet.html). Use the bookmarklet after logging in to turntable as the user the bot will run as, then copy and paste the auth, roomid and userid values.
 
-The bot will create two json files (in the same directory as your script) to store state information, "settings.json" (stores the queue, shitlisted users, triggers, etc) and "djs.json" (id's of users who have dj'd, so a user will only get the introductory PM once). 
-
 make a copy of 'exampleBOT.js' and rename it whatever you want .js - fill in required info, then open a terminal/console/cmd window, cd to the location of your script and type 'node example.js' (replace example.js with the name of your bots file)
+
+
+
+The bot will create two json files (in the same directory as your script) to store state information, "settings.json" (stores the queue, shitlisted users, triggers, etc) and "djs.json" (id's of users who have dj'd, so a user will only get the introductory PM once).
 
 ## Dynamic Modules
 
