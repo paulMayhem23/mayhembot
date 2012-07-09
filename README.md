@@ -57,16 +57,15 @@ The bot will create two json files (in the same directory as your script) to sto
 
 ## Dynamic Modules
 
-You can load custom modules at runtime that contain custom commands and/or events, using the `/loadmodule` command. In order to use custom modules, however, make sure you defined the `modules_directory` setting in your bot's .js file. In the example given above, simply create a `modules` directory in the same directory your bot's .js file is located, and put your modules there.
+You can load custom modules at runtime that contain custom commands and/or events, using the `/loadmodule` command. In order to use custom modules, however, make sure you defined the `modules_directory` setting in your bot's .js file. 
 
-You can also have your bot autoload any modules it finds by setting the `autoload_modules` option to true (see the setup example above).
+You can also have your bot autoload any modules it finds by setting the `autoload_modules` option to true.
 
 Please note:If you have previously used the `addCommand` or `on` methods to add custom commands/events, please switch to using dynamic modules as those methods are deprecated and will be removed in a future version.
 
 ### Custom Commands
 
 Your custom module can contain one or more custom commands that your bot will respond to. Simply create a .js file and place it in your modules directory (which you defined in the `modules_directory` option). look at some of the examples included in the modules directory for more
-
 
 ### Custom Events
 
