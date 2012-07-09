@@ -69,6 +69,8 @@ Your custom module can contain one or more custom commands that your bot will re
 
 ### Custom Events
 
+I have included the alot module and other speak examples in the modules folder
+
 You can program your own logic for when certain turntable events happen. For instance, simply add the code like below into a file in your modules directory called `alot.js`.
 Events supported: speak, ready, roomChanged, update_votes, newsong, endsong, pmmed, add_dj, rem_dj, update_user, new_moderator, rem_moderator, registered, deregistered, booted_user, snagged, nosong, tcpConnect, tcpMessage, tcpEnd, and httpRequest.
 See Alain Gilbert's TTAPI (which this bot uses) for more details on what each event is for at https://github.com/alaingilbert/Turntable-API.
